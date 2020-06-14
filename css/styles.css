@@ -92,3 +92,54 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+
+header {
+    height: 200px;
+    background-color: #6661;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6661;
+}
+
+#ticket {
+    height: 200px;
+    background-color: azure;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+#ticket_logo {
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6666;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+#ticket_textbox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#ticket_toolbar{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+#price_tag {
+    float: left;
+}
+#add_to_cart_btn {
+    float: right;
+
+}
