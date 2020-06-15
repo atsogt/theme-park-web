@@ -1,0 +1,199 @@
+nav {
+  height: 100px;
+  width: 100vw;
+  background-color: #6666;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+#logo-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 10%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+#nav-text {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home-img {
+  display: flex;
+  border: 2px solid black;
+  background: rgb(194, 194, 194);
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 55vh;
+  width: 100vw;
+}
+#home-img-title {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 25vh;
+}
+#animation {
+  display: flex;
+  align-items: auto;
+  justify-content: center;
+  width: 16vw;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+}
+
+#browse-one {
+  margin-top: 5px;
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-bottom: none;
+}
+#browse-one-content {
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 30vh;
+  border-radius: 15px;
+}
+#browse-two {
+  padding-top: 50px;
+  margin-top: 5px;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+}
+#browse-two-content {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 50vh;
+  border-radius: 15px;
+}
+footer {
+  background-color: #777;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+    height: 200px;
+    background-color: #6661;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6661;
+}
+
+#ticket {
+    height: 200px;
+    background-color: azure;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+#ticket_logo {
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6666;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+#ticket_textbox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#ticket_toolbar{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+#price_tag {
+    float: left;
+}
+#add_to_cart_btn {
+    float: right;
+
+}
+
+#explore {
+    height: 200px;
+    background-color: lightgray;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 15px;
+    float: left;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exploretitle {
+    height: 600px;
+    background-color: lightgray;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 15px;
+    float: left;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Title {
+    
+    height: 100px;
+    width:20%;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+#Information {
+    
+    height: 100px;
+    width:70%;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 15px;
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    
+}
