@@ -7,7 +7,7 @@ nav {
   align-items: center;
   font-size: 30px;
 }
-#logo-cart {
+.logo-cart {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,8 +16,17 @@ nav {
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
 
-#nav-text {
+.nav-text {
   width: 30%;
   display: flex;
   justify-content: center;
@@ -103,7 +112,7 @@ header {
     border-color: #6661;
 }
 
-#ticket {
+.ticket {
     height: 200px;
     background-color: azure;
     border-style: dotted;
@@ -111,7 +120,7 @@ header {
     border-radius: 15px;
 }
 
-#ticket_logo {
+.ticket_logo {
     height: 100%;
     width: 25%;
     float: left;
@@ -123,12 +132,12 @@ header {
     border-radius: 15px;
 }
 
-#ticket_textbox {
+.ticket_textbox {
     height: 100%;
     width: 100%;
     position: relative;
 }
-#ticket_toolbar{
+.ticket_toolbar{
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -136,10 +145,10 @@ header {
     width: 150px;
 }
 
-#price_tag {
+.price_tag {
     float: left;
 }
-#add_to_cart_btn {
+.add_to_cart_btn {
     float: right;
 
 }
