@@ -45,8 +45,10 @@ nav {
 #home-img-title {
   display: flex;
   align-items: center;
+  height: 100%;
+
   font-size: 25px;
-  margin-top: 25vh;
+  /* margin-top: 25vh; */
 }
 #animation {
   display: flex;
@@ -66,7 +68,8 @@ nav {
   border: 2px solid black;
   border-bottom: none;
 }
-#browse-one-content {
+.browse-one-content {
+  flex-direction: column;
   margin: 10px;
   border: 2px solid black;
   display: flex;
@@ -85,8 +88,10 @@ nav {
   justify-content: space-evenly;
   border: 2px solid black;
 }
-#browse-two-content {
+.browse-two-content {
   border: 2px solid black;
+  flex-direction: column;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,53 +107,70 @@ footer {
   align-items: center;
 }
 
-
 header {
-    height: 200px;
-    background-color: #6661;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #6661;
+  height: 200px;
+  background-color: #6661;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6661;
 }
 
 .ticket {
-    height: 200px;
-    background-color: azure;
-    border-style: dotted;
-    border-width: 1px;
-    border-radius: 15px;
+  height: 200px;
+  background-color: azure;
+  border-style: dotted;
+  border-width: 1px;
+  border-radius: 15px;
 }
 
 .ticket_logo {
-    height: 100%;
-    width: 25%;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #6666;
-    border-width: 1px;
-    border-radius: 15px;
+  height: 100%;
+  width: 25%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6666;
+  border-width: 1px;
+  border-radius: 15px;
 }
 
 .ticket_textbox {
-    height: 100%;
-    width: 100%;
-    position: relative;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
-.ticket_toolbar{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    height: 30px;
-    width: 150px;
+.ticket_toolbar {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 30px;
+  width: 150px;
 }
 
 .price_tag {
-    float: left;
+  float: left;
 }
 .add_to_cart_btn {
-    float: right;
+  float: right;
+}
 
+.directory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
