@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <!-- head of webpage -->
   <head>
+    <!--Set the title-->
     <title>Super Hero Theme Park - Home</title>
     <meta charset="UTF-8" />
     <meta name="author" content="Tim Little, Anand Tsogtbaatar, Ashfaq Anaz" />
@@ -10,51 +12,78 @@
       name="keywords"
       content="Super Hero Theme Park, Theme Park, Super Hero, Rides, Roller Coaster"
     />
+    <!-- CSS import -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <!-- Should the navbar always have cart? -->
+    <!-- Add common navigation bar to the top of the page -->
     <nav>
-      <div id="logo-cart"><p>Logo</p></div>
-      <div id="nav-text">
+      <!-- <div class="logo-cart"><p>Logo</p></div> -->
+      <img
+        class="logo-cart"
+        alt="Superhero World Logo"
+        src="images/logo.png"
+        width="150"
+        height="75"
+      />
+      <div class="nav-text">
         <p>Navbar with Logo</p>
       </div>
-      <div id="logo-cart">
+      <div class="logo-cart">
         <p>Cart</p>
       </div>
     </nav>
-    <div id="home-img">
-      <header id="home-img-title">Landing Image</header>
-      <p id="animation">Slider Animation</p>
+    <div class="directory">
+      <a href="tickets.html">Tickets</a>
+      <a href="explore.html">Explore</a>
     </div>
-    <section id="browse-one">
-      <div id="browse-one-content">
-        <p>Superhero Rides</p>
+    <div id="home-img">
+      <img
+        id="home-img-title"
+        src="./images/rollercoaster.jpg"
+        alt="Landing Image"
+      />
+      <!-- <p id="animation">Slider Animation</p> -->
+    </div>
+    <article id="browse-one">
+      <div class="browse-one-content">
+        <h2>Superhero Rides</h2>
+        <img
+          src="./images/superhero.png"
+          alt="Roller Coaster Picture"
+          width="150"
+        />
       </div>
-      <div id="browse-one-content">
-        <p>Restaurants</p>
+      <div class="browse-one-content">
+        <h2>Restaurants</h2>
+        <img src="./images/food.jpg" alt="Restaurant Picture" width="150" />
       </div>
-      <div id="browse-one-content">
-        <p>Tickets</p>
+      <div class="browse-one-content">
+        <h2>Tickets</h2>
+        <img src="./images/tickets.jpg" alt="Tickets Picture" width="150" />
       </div>
-      <div id="browse-one-content">
-        <p>Schedule</p>
+      <div class="browse-one-content">
+        <h2>Schedule</h2>
+        <img src="./images/coaster.jpg" alt="Theme Park Picture" width="150" />
       </div>
-    </section>
-    <section id="browse-two">
-      <div id="browse-two-content">
-        <p>Rides</p>
+    </article>
+    <article id="browse-two">
+      <div class="browse-two-content">
+        <h2>Rides</h2>
+        <img src="./images/coaster.jpg" alt="Rides Picture" width="200" />
       </div>
-      <div id="browse-two-content">
-        <p>Events</p>
+      <div class="browse-two-content">
+        <h2>Events</h2>
+        <img src="./images/firework.jpg" alt="Events Picture" width="200" />
       </div>
-      <div id="browse-two-content">
-        <p>Restaurants</p>
+      <div class="browse-two-content">
+        <h2>Restaurants</h2>
+        <img src="./images/food.jpg" width="200" alt="Restaurant Picture" />
       </div>
-    </section>
+    </article>
     <nav>
-      <div id="nav-text">
+      <div class="nav-text">
         <p>Navbar</p>
       </div>
     </nav>

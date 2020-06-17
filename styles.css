@@ -17,7 +17,7 @@ nav {
   border-radius: 15px;
 }
 
-#nav-text {
+.nav-text {
   width: 30%;
   display: flex;
   justify-content: center;
@@ -93,107 +93,124 @@ footer {
   align-items: center;
 }
 
-
 header {
-    height: 200px;
-    background-color: #6661;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #6661;
+  height: 200px;
+  background-color: #6661;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6661;
 }
 
 #ticket {
-    height: 200px;
-    background-color: azure;
-    border-style: dotted;
-    border-width: 1px;
-    border-radius: 15px;
+  height: 200px;
+  background-color: azure;
+  border-style: dotted;
+  border-width: 1px;
+  border-radius: 15px;
 }
 
 #ticket_logo {
-    height: 100%;
-    width: 25%;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #6666;
-    border-width: 1px;
-    border-radius: 15px;
+  height: 100%;
+  width: 25%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6666;
+  border-width: 1px;
+  border-radius: 15px;
 }
 
 #ticket_textbox {
-    height: 100%;
-    width: 100%;
-    position: relative;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
-#ticket_toolbar{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    height: 30px;
-    width: 150px;
+#ticket_toolbar {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 30px;
+  width: 150px;
 }
 
 #price_tag {
-    float: left;
+  float: left;
 }
 #add_to_cart_btn {
-    float: right;
-
+  float: right;
 }
 
-#explore {
-    height: 200px;
-    background-color: lightgray;
-    border-style: dashed;
-    border-width: 1px;
-    border-radius: 15px;
-    float: left;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.explore {
+  height: 200px;
+  background-color: lightgray;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 15px;
+  float: left;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #exploretitle {
-    height: 600px;
-    background-color: lightgray;
-    border-style: dashed;
-    border-width: 1px;
-    border-radius: 15px;
-    float: left;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-
+  height: 600px;
+  background-color: lightgray;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 15px;
+  float: left;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-#Title {
-    
-    height: 100px;
-    width:20%;
-    border-style: dashed;
-    border-width: 1px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
+.Title {
+  height: 100px;
+  width: 20%;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
 }
 
-#Information {
-    
-    height: 100px;
-    width:70%;
-    border-style: dashed;
-    border-width: 1px;
-    border-radius: 15px;
-    position: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: right;
-    
+.Information {
+  height: 100px;
+  width: 70%;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 15px;
+  position: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+}
+.directory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directory1 {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin: 10px;
 }
