@@ -152,7 +152,7 @@ header {
   width: 20%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #exploretitle {
@@ -190,4 +190,27 @@ header {
   align-items: center;
   justify-content: center;
   float: right;
+}
+.directory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directory1 {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin: 10px;
 }
